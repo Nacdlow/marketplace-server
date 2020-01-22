@@ -1,0 +1,95 @@
+/* Nacdlow Marketplace CSS */
+body {
+  font-family: "Lucidia Grande", "Segoe UI", "Roboto", sans-serif;
+  font-size: 1.2em;
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 1250px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 20px 30px;
+}
+
+.footer {
+  font-size: 0.8rem;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Navigation */
+.nav {
+  padding: 5px 15px;
+  margin-bottom: 1.2em;
+  background-color: #000;
+  height: 35px;
+  color: #fff;
+}
+
+.nav a {
+  text-decoration: none;
+  padding-right: 15px;
+  line-height: 2rem;
+  color: #fff !important;
+}
+
+.nav-left {
+  float: left;
+}
+
+.nav-right {
+  float: right;
+  text-align: right;
+}
+
+.logo {
+  height: 18px;
+}
+
+.main-line {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+/* Cards */
+.card-container {
+  display: grid;
+}
+
+.card-item {
+  display: inline-grid;
+  width: 182px;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  background-color: #fff;
+  color: #000;
+  padding: 5px;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-small {
+  font-weight: lighter;
+}
+
+.card img {
+  display: block;
+  margin: auto;
+  max-width: 85%;
+  max-height: 72px;
+}

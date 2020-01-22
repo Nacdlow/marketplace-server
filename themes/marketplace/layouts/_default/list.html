@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+{{if .IsHome}}<h3 class="main-line">Extensions for Nacdlow's Smart Home</h3>{{end}}
+{{ .Content }}
+<div class="card-container">
+{{ range .Data.Pages }}
+<a class="card-item" href="{{.URL}}">
+<div class="card">
+	<img src="https://via.placeholder.com/150" />
+	<p class="card-title">{{.Title}}</p>
+	<p class="card-small">By {{.Params.Author}} for {{.Params.Price}}</p>
+</div>
+</a>
+{{ end }}
+</div>
+{{ partial "footer.html" . }}

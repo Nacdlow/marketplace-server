@@ -1,0 +1,4 @@
+baseURL = "https://marketplace.nacdlow.com/"
+languageCode = "en-us"
+title = "Nacdlow Marketplace"
+theme = "marketplace"
