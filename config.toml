@@ -1,4 +1,8 @@
 baseURL = "https://marketplace.nacdlow.com/"
 languageCode = "en-us"
+preserveTaxonomyNames = true
 title = "Nacdlow Marketplace"
 theme = "marketplace"
+
+[taxonomies]
+  category = "category"

@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
-{{if .IsHome}}<h3 class="main-line">Extensions for Nacdlow's Smart Home</h3>{{end}}
+{{if .IsHome}}<h3 class="main-line">Extensions for Nacdlow's Smart Home</h3>
+{{else if .Title}}<h3 class="main-line">{{.Title}}</h3>{{end}}
 {{ .Content }}
 <div class="card-container">
 {{ range .Data.Pages }}
@@ -11,5 +12,11 @@
 </div>
 </a>
 {{ end }}
+
+{{if .IsHome}}<p>View by Categories</p>
+{{ range $name, $taxonomy := .Site.Taxonomies.category }}
+<span class="category-item"><a href="{{ "/category/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
+{{ $name }}</a></span>
+{{end}}{{end}}
 </div>
 {{ partial "footer.html" . }}
