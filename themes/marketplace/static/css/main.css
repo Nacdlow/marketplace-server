@@ -26,17 +26,18 @@ body {
 .nav {
   padding: 5px 15px;
   margin-bottom: 1.2em;
-  background-color: #000;
-  height: 35px;
+  background-color: #2BBBAD;
+  height: 50px;
   color: #fff;
 }
 
 .nav a {
   text-decoration: none;
   padding-right: 15px;
-  line-height: 2rem;
+  line-height: 3rem;
   color: #fff !important;
 }
+
 
 .nav-left {
   float: left;
@@ -48,7 +49,7 @@ body {
 }
 
 .logo {
-  height: 18px;
+  height: 30px;
 }
 
 .main-line {
@@ -59,7 +60,7 @@ body {
 
 /* Cards */
 .card-container {
-  display: grid;
+  display:grid inline-grid;
 }
 
 .card-item {
@@ -74,6 +75,14 @@ a {
 
 .card {
   background-color: #fff;
+  color: #000;
+  padding: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.1);
+}
+
+.card:hover {
+  background-color:grey;
+  transition: 0.7s;
   color: #000;
   padding: 5px;
   box-shadow: 2px 2px 5px rgba(0,0,0,.1);
@@ -96,7 +105,6 @@ a {
 }
 
 .category-item a {
-  position: absolute;
   background-color: #c1c1c1;
   padding: 2px 5px;
   border-radius: 3px;
@@ -105,4 +113,10 @@ a {
 
 .category-item a:hover {
   text-decoration: underline;
+}
+
+/*coming soon!*/
+
+endmsg{
+  width:100%;
 }

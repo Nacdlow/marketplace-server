@@ -1,7 +1,16 @@
 {{ partial "header.html" . }}
+
 {{if .IsHome}}<h3 class="main-line">Extensions for Nacdlow's Smart Home</h3>
 {{else if .Title}}<h3 class="main-line">{{.Title}}</h3>{{end}}
 {{ .Content }}
+
+{{if .IsHome}}<p>View by Categories</p>
+{{ range $name, $taxonomy := .Site.Taxonomies.category }}
+<span class="category-item"><a href="{{ "/category/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
+{{ $name }}</a></span>
+{{end}}{{end}}
+</div>
+
 <div class="card-container">
 {{ range .Data.Pages }}
 <a class="card-item" href="{{.URL}}">
@@ -11,12 +20,9 @@
 	<p class="card-small">By {{.Params.Author}} for {{.Params.Price}}</p>
 </div>
 </a>
+
 {{ end }}
 
-{{if .IsHome}}<p>View by Categories</p>
-{{ range $name, $taxonomy := .Site.Taxonomies.category }}
-<span class="category-item"><a href="{{ "/category/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
-{{ $name }}</a></span>
-{{end}}{{end}}
-</div>
+<h4 class="endmsg">More extensions coming soon!</h4>
+
 {{ partial "footer.html" . }}
