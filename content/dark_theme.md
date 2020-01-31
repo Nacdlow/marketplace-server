@@ -1,6 +1,6 @@
 ---
 title: "Night Time"
-Description: "Dark theme for [App Name]"
+Description: "Dark theme for iglü"
 Category: Themes
 author: "Nacdlow"
 Price: "Free"

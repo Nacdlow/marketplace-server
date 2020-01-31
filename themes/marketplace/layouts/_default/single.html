@@ -1,5 +1,17 @@
 {{ partial "header.html" . }}
-
+<div class="description">
+	<div class="flex">
+		<div class="col-2">
+		<img src="https://via.placeholder.com/150" />
+		</div>
+		<div class="col-7">
+			<h2>{{.Title}}</h2>
+			<p>By {{.Params.Author}} | {{.Params.Price}}</p>
+			<p>{{.Params.Description}}</p>
+			<a class="btn" href="https://local.nacdlow.com/settings/plugins">Install</a>
+		</div>
+	</div>
+</div>
 
 {{ .Content }}
 {{ partial "footer.html" . }}
