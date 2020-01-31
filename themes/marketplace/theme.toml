@@ -5,7 +5,7 @@ description = ""
 homepage = "https://gitlab.com/group-nacdlow"
 tags = []
 features = []
-min_version = "0.41"
+min_version = "0.40"
 
 [author]
   name = "Nacdlow"
