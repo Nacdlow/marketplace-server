@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
-{{if .IsHome}}<h3 class="main-line">Extensions for iglü</h3>
-{{else if .Title}}<h3 class="main-line">{{.Title}}</h3>{{end}}
+{{if .IsHome}}<h3 class="main-line">Plugins for iglü</h3>
+{{else if .Title}}<h3 class="main-line">{{.Title}} Plugins</h3>{{end}}
 {{ .Content }}
 
 {{if .IsHome}}<p>View by Categories</p>
@@ -23,6 +23,6 @@
 
 {{ end }}
 </div>
-<h4 class="endmsg">More extensions coming soon!</h4>
+<h4 class="endmsg">More plugins coming soon!</h4>
 
 {{ partial "footer.html" . }}
