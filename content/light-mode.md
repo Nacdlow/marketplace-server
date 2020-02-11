@@ -2,7 +2,7 @@
 id: "light-mode"
 title: "Light Mode"
 Description: "Light theme for iglü"
-Category: Themes
+Category: Theme
 author: "Nacdlow"
 Price: "Free"
 version: "v0.1"
