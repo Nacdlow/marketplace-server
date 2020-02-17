@@ -1,7 +1,12 @@
 /* Nacdlow Marketplace CSS */
 
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+
 body {
-  font-family: "Roboto Light", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2em;
   margin: 0;
   background-color: #34383b!important;
@@ -55,7 +60,7 @@ body {
 
 .nav-extra {
   transition: all 0.3s ease;
-  font-family: "Montserrat Extrabold", "Roboto", sans-serif;
+  font-family: "Montserrat", "Roboto", sans-serif;
   font-style: oblique;
   font-size: 1.75em;
 }
