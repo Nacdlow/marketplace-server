@@ -12,3 +12,11 @@ any of the doors or windows are opened during a specific time.
 
 You are able to set times where the feature is active, and where you'd like to
 receive the notification. It supports Telegram and Email notifications.
+
+<br>
+
+*This extension uses an icon from fontawesome.com with the [Creative Commons Attribution 4.0 International license](https://fontawesome.com/license)*
+
+
+<br>
+<br>

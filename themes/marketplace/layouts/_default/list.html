@@ -20,22 +20,22 @@
 {{if .IsHome}}<p>View by Categories</p>
 {{ range $name, $taxonomy := .Site.Taxonomies.category }}
 <span class="category-item"><a href="{{ "/category/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
-{{ $name }}</a></span>
+		{{ $name }}</a></span>
 {{end}}{{end}}
 </div>
 
 <div class="card-container">
-{{ range .Data.Pages }}
-<a class="card-item" href="{{.URL}}">
-<div class="card">
-	<img src="https://via.placeholder.com/150" />
-	<p class="card-title">{{.Title}}</p>
-	<p class="card-small">By {{.Params.Author}} for {{.Params.Price}}</p>
+	{{ range .Data.Pages }}
+	<a class="card-item" href="{{.URL}}">
+		<div class="card">
+			<img src="/{{.File}}.png" />
+			<p class="card-title">{{.Title}}</p>
+			<p class="card-small">{{.Params.Author}} | {{.Params.Price}}</p>
+		</div>
+	</a>
+
+	{{ end }}
 </div>
-</a>
-
-{{ end }}
-</div>
 
 
 
@@ -44,19 +44,19 @@
 
 
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
 <h4 class="endmsg">More plugins coming soon!</h4>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <br>
 <br>
 <br>

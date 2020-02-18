@@ -8,3 +8,11 @@ version: "v0.1"
 ---
 
 Set specific tasks for smart devices to complete.
+
+<br>
+
+*This extension uses an icon from fontawesome.com with the [Creative Commons Attribution 4.0 International license](https://fontawesome.com/license)*
+
+
+<br>
+<br>
