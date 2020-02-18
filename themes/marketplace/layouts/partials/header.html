@@ -6,25 +6,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="/css/normalize-8.0.1.min.css" />
 	<link rel="stylesheet" href="/css/main.css" />
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800i|Roboto:300,400&display=swap" rel="stylesheet">	<title>{{if .Title}}{{.Title}} - {{end}}iglü Marketplace</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Montserrat|Roboto:300,400&display=swap"
+		rel="stylesheet">
+	<title>{{if .Title}}{{.Title}} - {{end}}iglü Marketplace</title>
 	{{if .Description}}
 	<meta name="description" content="{{.Description}}" />{{end}}
 	<link rel="icon" href="/favicon.ico" />
 </head>
 
 <body>
+	<div class="container">
 	<div class="nav">
+
 		<!-- <img src="/img/logo.png" class="logo" /> -->
 		<div class="nav-left">
-
 			<a href="/" class="nav-title">
-				<span class="nav-extra">iglü Marketplace</span></a>
+				<img src="/img/iglu.png" class="logo" alt="iglü">
+				<!-- <span class="nav-extra">Iglü Plugins</span></a> -->
 		</div>
 
 
 		<div class="nav-right">
-			<a href="https://nacdlow.com">Learn more</a>
+			<a href="https://nacdlow.com" class="nav-right">Learn more</a>
 		</div>
 	</div>
-	<div class="container">
+
 		<div class="content">

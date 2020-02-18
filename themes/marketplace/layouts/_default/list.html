@@ -1,8 +1,21 @@
 {{ partial "header.html" . }}
 
-{{if .IsHome}}<h3 class="main-line">Plugins for iglü</h3>
-{{else if .Title}}<h3 class="main-line">{{.Title}} Plugins</h3>{{end}}
+{{if .IsHome}}<p class="main-line">Plugins made for iglü</p>
+{{else if .Title}}<p class="main-line">{{.Title}} Plugins</p>{{end}}
 {{ .Content }}
+
+<!-- Search form -->
+<form class="">
+	<input class="" type="text" placeholder="Search for plugins">
+</form>
+
+<!-- Featured Today Title -->
+<div class="section-title">Featured Today</div>
+
+<!-- Featured Today Card -->
+<div class="card card-featured">
+	<p class="featured-title">Plugin Name</p>
+</div>
 
 {{if .IsHome}}<p>View by Categories</p>
 {{ range $name, $taxonomy := .Site.Taxonomies.category }}
@@ -23,6 +36,52 @@
 
 {{ end }}
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
 <h4 class="endmsg">More plugins coming soon!</h4>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 {{ partial "footer.html" . }}
