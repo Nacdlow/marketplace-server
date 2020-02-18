@@ -163,7 +163,7 @@ body {
 .card-featured {
   margin-top: 2%;
   background-image: url(/img/featured.jpg);
-  background-repeat: no-repeat;
+  background-repeat: round;
   height: 40vh;
   color: white!important;
 }
@@ -258,8 +258,8 @@ a {
 }
 
 .description {
-  background-image: url(/img/featured.jpg);
-  background-repeat: no-repeat;
+  background-image: url(/img/description.jpg);
+  background-repeat: round;
   max-height: %;
   padding: 20px 25px;
   border-radius: 3px;
