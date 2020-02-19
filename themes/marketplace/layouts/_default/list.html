@@ -4,18 +4,23 @@
 {{else if .Title}}<p class="main-line">{{.Title}} Plugins</p>{{end}}
 {{ .Content }}
 
-<!-- Search form -->
-<form class="">
-	<input class="" type="text" placeholder="Search for plugins">
-</form>
-
 <!-- Featured Today Title -->
-<div class="section-title">Featured Today</div>
+{{if .IsHome}}<div class="section-title">Featured Today</div>
 
 <!-- Featured Today Card -->
+<a href="{{.Site.Params.featured}}">
+	{{range .Pages}}
+	{{.Site.Params.featured}}
+	{{.File}}
+	<br>
+	{{if eq $.Site.Params.featured .File}}
 <div class="card card-featured">
-	<p class="featured-title">Plugin Name</p>
+	<p class="featured-title">{{.Title}}</p>
 </div>
+</a>
+{{end}}
+{{end}}
+{{end}}
 
 {{if .IsHome}}<p>View by Categories</p>
 {{ range $name, $taxonomy := .Site.Taxonomies.category }}

@@ -6,3 +6,6 @@ theme = "marketplace"
 
 [taxonomies]
   category = "category"
+
+[params]
+  featured = "home-alarm"
