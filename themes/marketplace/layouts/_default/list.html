@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
-{{if .IsHome}}<p class="main-line">Plugins made for iglü</p>
-{{else if .Title}}<p class="main-line">{{.Title}} Plugins</p>{{end}}
+<!-- {{if .IsHome}}<p class="main-line">Plugins made for iglü</p> -->
+<!-- {{else if .Title}}<p class="main-line">{{.Title}} Plugins</p>{{end}} -->
 {{ .Content }}
 
 <!-- Featured Today Title -->
@@ -20,7 +20,9 @@
 {{end}}
 {{end}}
 
-{{if .IsHome}}<p>View by Categories</p>
+<hr>
+
+{{if .IsHome}}<p class="section-title">View by Categories</p>
 {{ range $name, $taxonomy := .Site.Taxonomies.category }}
 <span class="category-item"><a href="{{ "/category/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
 		{{ $name }}</a></span>

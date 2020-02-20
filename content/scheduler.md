@@ -4,7 +4,7 @@ title: "Scheduler"
 Description: "Set a schedule of what your devices do at specific times"
 Category: Customize
 author: "Nacdlow"
-Price: "Free"
+Price: "£1.99"
 version: "v0.1"
 ---
 

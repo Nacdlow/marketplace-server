@@ -4,7 +4,7 @@ title: "Home Notify"
 Description: "A home notification system"
 Category: Security
 author: "Nacdlow"
-Price: "Free"
+Price: "£3.49"
 version: "v0.1"
 ---
 
