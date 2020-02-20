@@ -12,7 +12,7 @@
 	{{range .Pages}}
 	{{if eq $.Site.Params.featured .Params.id}}
 	<div class="card card-featured">
-		<img src="/{{.File}}.png" class="featured-img"/>
+		<img src="/{{.Site.Params}}.png" class="featured-img"/>
 		<div class="featured-titles">
 			<p class="featured-title">{{.Title}}</p>
 			<p class="featured-author">{{.Params.Author}} | {{.Params.Price}}</p>
