@@ -316,7 +316,6 @@ p.category-title {
   /* background-image: url(/img/description.jpg); */
   background: linear-gradient(45deg, rgba(67, 113, 207, 1) 0%, rgba(17, 196, 255, 1) 100%);
   background-repeat: round;
-  max-height: %;
   padding: 20px 25px;
   border-radius: var(--radius);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
