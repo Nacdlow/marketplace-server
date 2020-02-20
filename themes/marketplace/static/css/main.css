@@ -12,6 +12,21 @@ body {
   color: white;
 }
 
+.card-featured p {
+  margin: 0;
+}
+
+p.featured-title {
+  padding-top: 5%;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+p.featured-author {
+  font-size: 1.5em;
+  filter: brightness(90%);
+}
+
 .main-line {
   font-family: 'Montserrat', sans-serif;
   transition: all 0.3s ease;
@@ -62,7 +77,6 @@ body {
     padding: 0 5% 5%;
   }
 }
-
 .footer {
   font-size: 0.8rem;
   padding: 8px;
@@ -230,10 +244,6 @@ a {
   text-decoration: underline;
 }
 
-
-
-
-
 /*coming soon!*/
 
 /* endmsg {
@@ -286,11 +296,9 @@ a {
   margin: auto;
 }
 
-.description-text{
+.description-text {
   margin-left: 2%;
 }
-
-
 
 .flex {
   display: flex;
@@ -312,7 +320,7 @@ a {
 
 .btn:hover {
   transition: all 0.25s ease;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 /* Responsive Layout */

@@ -10,13 +10,11 @@
 <!-- Featured Today Card -->
 <a href="{{.Site.Params.featured}}">
 	{{range .Pages}}
-	{{.Site.Params.featured}}
-	{{.File}}
-	<br>
-	{{if eq $.Site.Params.featured .File}}
-<div class="card card-featured">
-	<p class="featured-title">{{.Title}}</p>
-</div>
+	{{if eq $.Site.Params.featured .Params.id}}
+	<div class="card card-featured">
+		<p class="featured-title">{{.Title}}</p>
+		<p class="featured-author">{{.Params.Author}} | {{.Params.Price}}</p>
+	</div>
 </a>
 {{end}}
 {{end}}
