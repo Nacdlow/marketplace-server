@@ -21,6 +21,15 @@ p {
   margin: 0!important;
 }
 
+img.featured-img {
+  border: solid 5px #fff;
+}
+
+img.description-img {
+  border: solid 5px #fff;
+  width: 100%;
+}
+
 .container {
   max-width: 1250px;
   position: relative;
@@ -122,7 +131,6 @@ p.category-title {
     padding-bottom: 10%;
     padding-top: 5%;
   }
-  
   .content {
     transition: all 0.25s ease;
     padding: 10% 5% 5%;
@@ -150,7 +158,6 @@ p.category-title {
   /* position: fixed; */
   /* box-shadow: 0 10px 28px rgba(0, 0, 0, 0.10), 0 10px 10px rgba(0, 0, 0, 0.10); */
   /* z-index: 1; */
-
 }
 
 /* Nacdlow Marketplace top left text */
@@ -214,7 +221,7 @@ p.category-title {
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  height: 60vh;
+  /* height: 50vh; */
 }
 
 .card-item {
@@ -232,10 +239,6 @@ p.category-title {
   color: black!important;
 }
 
-.card-featured:hover {
-  filter: brightness(110%);
-}
-
 .featured-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
@@ -247,11 +250,15 @@ p.category-title {
   color: #000;
   padding: 10px;
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  height: 28vh;
+}
+
+.card.card-featured {
+  height: auto!important;
 }
 
 .card:hover {
-  background-color: lightgray;
-  color: #000;
+  filter: brightness(110%);
 }
 
 .card-title {
@@ -272,15 +279,8 @@ p.category-title {
   border-radius: var(--radius);
 }
 
-.category-item a {
-  background-color: #c1c1c1;
-  padding: 2px 5px;
-  border-radius: var(--radius);
-  color: #000;
-}
-
-.category-item a:hover {
-  text-decoration: underline;
+.category a {
+  color: #000!important;
 }
 
 /*coming soon!*/
@@ -295,18 +295,15 @@ p.category-title {
   body {
     font-size: 1em;
   }
-
   .card-container {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
-  
   .card-item {
-    padding: 10px;
+    padding: 20px;
     display: inline-grid;
     width: 160px;
     height: 190px;
   }
-
   .section-title {
     padding: 0 0 5% 0;
   }
@@ -316,21 +313,15 @@ p.category-title {
   /* background-image: url(/img/description.jpg); */
   background: linear-gradient(45deg, rgba(67, 113, 207, 1) 0%, rgba(17, 196, 255, 1) 100%);
   background-repeat: round;
-  padding: 20px 25px;
+  padding: 20px;
   border-radius: var(--radius);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .description img {
   transition: all 0.25s ease;
-  max-width: 100%;
+  /* max-width: 100%; */
   border-radius: var(--radius);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.description img:hover {
-  transition: all 0.25s ease;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border: solid 5px #fff;
 }
 
 .description h2 {
@@ -342,7 +333,7 @@ p.category-title {
 }
 
 .description-text {
-  margin-left: 2%;
+  margin-left: 25px;
 }
 
 .flex {
@@ -360,12 +351,11 @@ p.category-title {
   /* border: #fff 1px solid; */
   text-decoration: none;
   border-radius: var(--radius);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .btn:hover {
   transition: all 0.25s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  filter: brightness(75%);
 }
 
 /* Responsive Layout */
@@ -420,8 +410,8 @@ p.category-title {
 
 /* Mobile responsiveness */
 
-@media only screen and (max-width: 860px) {
+/* @media only screen and (max-width: 860px) {
   [class*="col-"] {
     width: 100%;
   }
-}
+} */

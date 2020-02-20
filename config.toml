@@ -8,4 +8,4 @@ theme = "marketplace"
   category = "category"
 
 [params]
-  featured = "scheduler"
+  featured = "scheduler-01"

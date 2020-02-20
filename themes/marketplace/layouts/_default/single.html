@@ -1,10 +1,10 @@
 {{ partial "header.html" . }}
 <div class="description">
 	<div class="flex">
-		<div class="col-2">
-			<img src="/{{.Params.Id}}.png"/>
+		<div class="col-3">
+			<img src="/{{.Params.Id}}.png" class="description-img" />
 		</div>
-		<div class="col-7 description-text">
+		<div class="description-text">
 			<h2>{{.Title}}</h2>
 			<p class="author-price">{{.Params.Author}} | {{.Params.Price}}</p>
 			<p>{{.Params.Description}}</p>
@@ -12,8 +12,12 @@
 		</div>
 	</div>
 </div>
+
+
 <h3>Overview</h3>
 {{ .Content }}
+
+
 <h3>Reviews</h3>
 <div id="disqus_thread"></div>
 <script>
@@ -24,7 +28,7 @@
 
 	var disqus_config = function () {
 		this.page.url = {{.Page.Permalink }};
-	  // Replace PAGE_URL with your page's canonical URL variable
+	// Replace PAGE_URL with your page's canonical URL variable
 	this.page.identifier = {{.Page.URL }}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 

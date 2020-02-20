@@ -1,8 +1,8 @@
 ---
-id: "scheduler"
+id: "scheduler-01"
 title: "Scheduler"
 Description: "Scheduler allows you to set schedules for your devices and to create routines for when you are not at home or on holiday"
-Category: Customize
+Category: Utility
 author: "Nacdlow"
 Price: "£1.99"
 version: "v0.1"

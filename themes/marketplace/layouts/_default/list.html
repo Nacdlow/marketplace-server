@@ -28,7 +28,7 @@
 
 {{if .IsHome}}<p class="section-title">View by Categories</p>
 {{ range $name, $taxonomy := .Site.Taxonomies.category }}
-<span class="category-item"><a href="{{ "/category/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
+<span class="btn category"><a href="{{ "/category/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
 		{{ $name }}</a></span>
 {{end}}{{end}}
 </div>
