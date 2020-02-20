@@ -5,7 +5,7 @@
 } */
 
 :root {
-  --background: rgb(226, 229, 231);
+  --background: #202020;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
   margin: 0;
   /* background-color: #202020!important; */
   background-color: var(--background)!important;
-  color: #555;
+  color: #eee;
 }
 
 .container {
@@ -110,7 +110,7 @@ p.category-title {
   
   .content {
     transition: all 0.25s ease;
-    padding: 0 5% 5%;
+    padding: 10% 5% 5%;
   }
 }
 
