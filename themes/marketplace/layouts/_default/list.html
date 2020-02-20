@@ -37,7 +37,7 @@
 	{{ range .Data.Pages }}
 	<a class="card-item" href="{{.URL}}">
 		<div class="card">
-			<img src="/{{.File}}.png" />
+			<img src="/{{.Params.Id}}.png" />
 			<p class="card-title">{{.Title}}</p>
 			<p class="card-small">{{.Params.Author}} | {{.Params.Price}}</p>
 		</div>
