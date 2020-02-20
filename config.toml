@@ -8,4 +8,4 @@ theme = "marketplace"
   category = "category"
 
 [params]
-  featured = "home-alarm"
+  featured = "scheduler"

@@ -12,8 +12,12 @@
 	{{range .Pages}}
 	{{if eq $.Site.Params.featured .Params.id}}
 	<div class="card card-featured">
-		<p class="featured-title">{{.Title}}</p>
-		<p class="featured-author">{{.Params.Author}} | {{.Params.Price}}</p>
+		<img src="/{{.File}}.png" class="featured-img"/>
+		<div class="featured-titles">
+			<p class="featured-title">{{.Title}}</p>
+			<p class="featured-author">{{.Params.Author}} | {{.Params.Price}}</p>
+			<p class="featured-summary">{{.Params.Description}}</p>
+		</div>
 	</div>
 </a>
 {{end}}
@@ -42,51 +46,11 @@
 	{{ end }}
 </div>
 
-
-
-
-
-
-
+<!-- <h4 class="endmsg">More plugins coming soon!</h4> -->
 
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-
-
-<h4 class="endmsg">More plugins coming soon!</h4>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 {{ partial "footer.html" . }}

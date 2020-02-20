@@ -1,7 +1,7 @@
 ---
 id: "scheduler"
 title: "Scheduler"
-Description: "Set a schedule of what your devices do at specific times"
+Description: "Scheduler allows you to set schedules for your devices and to create routines for when you are not at home or on holiday"
 Category: Customize
 author: "Nacdlow"
 Price: "£1.99"
