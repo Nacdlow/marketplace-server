@@ -8,7 +8,8 @@
 			<h2>{{.Title}}</h2>
 			<p class="author-price">{{.Params.Author}} | {{.Params.Price}}</p>
 			<p>{{.Params.Description}}</p>
-			<a class="btn" href="https://local.nacdlow.com/settings/plugins/{{.Params.Id}}">Install</a>
+			{{if eq .Params.Price "Free"}}<a class="btn" href="https://local.nacdlow.com/settings/plugins/{{.Params.Id}}">Install</a>
+			{{else}}<a class="btn" href="https://payment.nacdlow.com/checkout/{{.Params.Id}}">Purchase</a>{{end}}
 		</div>
 	</div>
 </div>
