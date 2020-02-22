@@ -36,7 +36,7 @@
 
 <div class="card-container">
 	{{ range .Data.Pages }}
-	{{if or (eq .Dir "/") (eq .Dir "")}}
+	{{if eq .Dir "/"}}
 	<a class="card-item" href="{{.URL}}">
 		<div class="card">
 			<img src="/{{.Params.Id}}.png" />
