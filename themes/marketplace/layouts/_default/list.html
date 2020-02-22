@@ -10,6 +10,7 @@
 <!-- Featured Today Card -->
 <a href="{{.Site.Params.featured}}">
 	{{range .Pages}}
+
 	{{if eq $.Site.Params.featured .Params.id}}
 	<div class="card card-featured">
 		<img src="/{{.Params.Id}}.png" class="featured-img"/>
@@ -35,6 +36,7 @@
 
 <div class="card-container">
 	{{ range .Data.Pages }}
+	{{if eq .Dir ""}}
 	<a class="card-item" href="{{.URL}}">
 		<div class="card">
 			<img src="/{{.Params.Id}}.png" />
@@ -42,8 +44,8 @@
 			<p class="card-small">{{.Params.Author}} | {{.Params.Price}}</p>
 		</div>
 	</a>
-
-	{{ end }}
+	{{end}}
+	{{end}}
 </div>
 
 <!-- <h4 class="endmsg">More plugins coming soon!</h4> -->
