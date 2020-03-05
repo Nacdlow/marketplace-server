@@ -1,7 +1,7 @@
 ---
-id: "light-theme"
-title: "Light Theme"
-Description: "Light theme for iglü"
+id: "light-mode"
+title: "Light Mode"
+Description: "Light Mode for iglü"
 Category: Customise
 author: "Nacdlow"
 Price: "Free"
