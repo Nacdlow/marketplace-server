@@ -28,6 +28,7 @@ body {
   position: fixed;
   left: 25px;
   bottom: 25px;
+  z-index: 1;
 }
 
 .back-to-iglu-container:hover {
@@ -278,7 +279,7 @@ p.category-title {
   background-color: #fff;
   color: #000;
   padding: 10px;
-  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  transition: all 0.25s ease-out;
   height: 28vh;
 }
 
@@ -286,9 +287,9 @@ p.category-title {
   height: auto!important;
 }
 
-/* .card:hover {
-  filter: brightness(110%);
-} */
+.card:hover {
+  filter: brightness(75%);
+}
 
 .card-title {
   text-align: center;
