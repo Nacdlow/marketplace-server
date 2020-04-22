@@ -7,7 +7,10 @@ The Plugin Marketplace is the official site for discovering and installing verif
 
 # Submitting Plugins
 
-You can develop your own plugins and submit them to the iglü marketplace. Check out the [Getting Started](#) page or download the [iglü SDK](#) to get started. If you are having any issues feel free to contact [plugins@nacdlow.com](mailto:plugins@nacdlow.com).
+You can develop your own plugins and submit them to the iglü marketplace. Check
+out the  the [iglü SDK](https://github.com/Nacdlow/plugin-sdk) to get started.
+If you are having any issues feel free to contact
+[plugins@nacdlow.com](mailto:plugins@nacdlow.com) for help.
 
 <br>
 <br>
