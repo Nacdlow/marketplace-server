@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nacdlow Marketplace</title>
+    <link>https://marketplace.nacdlow.com/</link>
+    <description>Recent content on Nacdlow Marketplace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://marketplace.nacdlow.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://marketplace.nacdlow.com/i/learnmore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://marketplace.nacdlow.com/i/learnmore/</guid>
+      <description>About iglü The Plugin Marketplace is the official site for discovering and installing verified plugins for the iglü Smart Home System, letting you do more with your iglü.
+Submitting Plugins You can develop your own plugins and submit them to the iglü marketplace. Check out the the iglü SDK to get started. If you are having any issues feel free to contact plugins@nacdlow.com for help.
+Contact Us If you have any questions or would just like to get in touch, you can do so by email or phone.</description>
+    </item>
+    
+    <item>
+      <title>Compare Energy Usage</title>
+      <link>https://marketplace.nacdlow.com/compare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://marketplace.nacdlow.com/compare/</guid>
+      <description>You can use this plugin to compare your energy habits with other homes in your country. Your anonymised usage statistics are periodically sent to Nacdlow in order to collate the data. No other information leaves your iglü Smart Home System.</description>
+    </item>
+    
+    <item>
+      <title>Home Notify</title>
+      <link>https://marketplace.nacdlow.com/home-notify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://marketplace.nacdlow.com/home-notify/</guid>
+      <description>Home Notify is a plugin for your smart home, it will notify you when any of the doors or windows are opened during a specific time.
+You are able to set times where the feature is active, and where you&amp;rsquo;d like to receive the notification. It supports Telegram and Email notifications.
+This extension uses a modified icon from fontawesome.com with the Creative Commons Attribution 4.0 International license</description>
+    </item>
+    
+    <item>
+      <title>LIFX Integration</title>
+      <link>https://marketplace.nacdlow.com/lifx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://marketplace.nacdlow.com/lifx/</guid>
+      <description>This plugin allows you to connect LIFX LED bulbs to your smart home and toggle them on and off.</description>
+    </item>
+    
+    <item>
+      <title>Light Mode</title>
+      <link>https://marketplace.nacdlow.com/light-mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://marketplace.nacdlow.com/light-mode/</guid>
+      <description>Light Mode is a light theme for your smart home app, it will simply change the look and feel of iglü.
+This extension uses an icon from fontawesome.com with the Creative Commons Attribution 4.0 International license</description>
+    </item>
+    
+    <item>
+      <title>Minecraft Simulation</title>
+      <link>https://marketplace.nacdlow.com/minecraft-sim-plugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://marketplace.nacdlow.com/minecraft-sim-plugin/</guid>
+      <description>This plugin allows you to connect your Minecraft server to iglü if you have our Spigot Minecraft server plugin. This will allow your redstone devices show up as devices on your iglü search devices page.</description>
+    </item>
+    
+    <item>
+      <title>Scheduler</title>
+      <link>https://marketplace.nacdlow.com/scheduler-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://marketplace.nacdlow.com/scheduler-01/</guid>
+      <description>Set specific tasks for smart devices to complete.
+This extension uses an icon from fontawesome.com with the Creative Commons Attribution 4.0 International license</description>
+    </item>
+    
+  </channel>
+</rss>

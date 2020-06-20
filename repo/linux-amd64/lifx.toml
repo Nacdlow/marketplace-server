@@ -1,0 +1,4 @@
+ID      = "lifx"
+NAME    = "LIFX Integration"
+AUTHOR  = "Nacdlow"
+VERSION = "v0.1"

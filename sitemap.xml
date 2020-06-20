@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/i/learnmore/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/category/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/compare/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/category/customise/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/home-notify/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/category/iot/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/i/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/lifx/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/light-mode/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/minecraft-sim-plugin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/scheduler-01/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/category/security/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marketplace.nacdlow.com/category/utility/</loc>
+  </url>
+  
+</urlset>
